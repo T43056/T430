@@ -1,0 +1,144 @@
+body {
+  background-image: url('logos/municipio.webp');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+}
+
+@media (max-width: 768px) {
+  body {
+      background-size: contain;
+      background-position: center; 
+  }
+}
+
+.container {
+  float: right;
+  margin-left: 50px;
+  width: 10;
+  height: auto;
+  max-width: 100%;
+}
+
+.containerdos {
+  width: auto;
+  height: 39px;
+}
+
+.center {
+  padding: 10px 0;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  background-color: #a78551;
+  color: blanchedalmond;
+}
+
+.container-superior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.logo-izquierda {
+  float: left;
+}
+
+.logo-derecha {
+  float: right;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.488);
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.99);
+  text-align: right;
+}
+
+.options-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.options-container label {
+  margin: 5px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.form-container button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-container button:hover {
+  background-color: #218838;
+}
+
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.options-circle {
+  flex: 1;
+  padding: 15px;
+  border: 3px solid #a78551;
+  border-radius: 25%;
+  margin: 10px;
+  text-align: center;
+}
+.options-circle label {
+  display: block;
+  margin: 5px 0;
+}
+
+.textocentadro{
+  padding: 10px 0;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  background-color: #a78551;
+  color: blanchedalmond;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('logos/municipio.webp'); /* Ruta de tu imagen de fondo */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.map {
+  width: 70%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.info {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.info-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+}
+
